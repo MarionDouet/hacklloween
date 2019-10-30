@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster|Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.containervideo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.videoTag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.home-text {
+  position: fixed;
+  padding: 30px;
+  margin-top:40px;
+  line-height: 30px;
+}
+.important-text {
+  color: #FE810E;
+  font-family: Lacquer;
+  font-size: 25px;
+}
+.second-text {
+  color: white;
+  font-family: Lacquer;
+  font-size: 20px;
+  padding: 30px;
+}
+
+@media screen and (min-width: 751px) {
+.videoTag{
+  width: auto;
+  height: 120%;
+}  
+.home-text {
+  position: fixed;
+  padding: 30px;
+  margin-top:300px;
+  margin-left: 50%; 
+  line-height: 40px;
+}
+.important-text {
+  font-size: 65px;
+}
+.second-text {
+  font-size: 50px;
+  padding: 50px;
+}
+}
