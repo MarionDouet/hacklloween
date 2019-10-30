@@ -6,8 +6,8 @@ function DisplayMovies({ movies }) {
     <div className="DisplayMovies">
       <h1 className="movieTitle">{movies.title.replace(/_/g," ")}</h1>
       <img className="movieImg"
-        src={movies.posterUrl.replace(/_/g," ")}
-        alt={movies.title.replace(/_/g," ")}
+        src={movies.posterUrl}
+        alt={movies.title}
       />
       <p className="movieTxt">By {movies.director.replace(/_/g," ")}, in {movies.year}</p>
     </div>

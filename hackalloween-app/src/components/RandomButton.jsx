@@ -1,8 +1,7 @@
 import React from 'react';
 import DisplayMovies from './DisplayMovies';
 import axios from 'axios';
-
-
+import './RandomButton.css'
 
 
 function FunctionRandom(min, max) {
@@ -17,7 +16,6 @@ class RandomButton extends React.Component {
     super(props);
     this.state = {
       movies: null
-
     };
     this.getMovies = this.getMovies.bind(this);
   }
@@ -40,13 +38,15 @@ class RandomButton extends React.Component {
 
   render(){
     return(
-      <div className = "button">
-        <button type="button" onClick={this.getMovies}>Next Movie</button>
+      <div className = "divButton">
 
         {
           this.state.movies ? <DisplayMovies movies={this.state.movies}/> : null
         }
         
+        <button className="buttonRandom" type="button" onClick={this.getMovies}>Next!</button>
+          
+       
       </div>
 
     )
