@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 /* footer */
 
@@ -21,7 +20,7 @@
   line-height: 15px;
   text-align: center;
   color: white;
-  font-family: roboto;
+  font-family: Muli;
   padding-right:70px;
   padding-left:70px;
 }
@@ -34,7 +33,7 @@
   align-items: center;
   text-decoration: none;
   color: white;
-  font-family: roboto;
+  font-family: playfair;
   margin-top:10px;
 }
 

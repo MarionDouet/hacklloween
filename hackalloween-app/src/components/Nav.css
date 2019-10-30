@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 .nav {
   background-color: transparent;
@@ -28,7 +28,7 @@ a {
   text-decoration: none;
   color: #FE810E;
   font-size:14px;
-  font-family: roboto;
+  font-family: Muli;
   font-weight: bold;
 }
 
