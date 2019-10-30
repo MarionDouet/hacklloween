@@ -1,6 +1,7 @@
 import React from 'react';
 import './Nav.css';
 import Eye from '../images/Eye.png';
+import {Link} from 'react-router-dom';
 
 function Nav() {
   return (
@@ -11,10 +12,10 @@ function Nav() {
       <h1 className="title-site">Fear focus</h1>
       <div className="about-contact">
         <p>
-          <a href="#.h">About</a>
+          <Link to ="/about">About</Link>
         </p>
         <p>
-          <a href="#.h">Top</a>
+          <Link to ="/top">Top</Link>
         </p>
       </div>
     </nav>
