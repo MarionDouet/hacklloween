@@ -9,9 +9,9 @@ function Footer() {
   return (
     <div className="containerfooter">
       <div className="sectionfooter">
-        <div className="titlefooter">Halloween </div>
+        <div className="titlefooter">Fear focus</div>
         <p className="text-footer">
-          Fear site 
+          Best selection of horror movies for unforgettable evenings
         </p>
       </div>
       <div className="network">
@@ -32,7 +32,7 @@ function Footer() {
           About
         </a>
         <a className="links" href>
-          Contact us
+          Top
         </a>
       </div>
     </div>
