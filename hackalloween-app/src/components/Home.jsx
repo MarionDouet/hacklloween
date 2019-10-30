@@ -12,7 +12,7 @@ function Home() {
 </video>
 <div className="home-text">
     <p className="important-text">Nothing to do tonight?</p>
-    <p className="second-text">Find an horror in our selection</p>
+    <p className="second-text">Find an horror film in our selections</p>
 </div>    
     </div>
   );

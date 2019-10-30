@@ -7,7 +7,7 @@ function About () {
     
     <Link to="/about">
     <div className="About" >
-      <section>
+      <section >
         <img src={PhotoMarion} alt="Photo développeuse"/>
       </section>      
     </div >
