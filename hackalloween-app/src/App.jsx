@@ -16,7 +16,7 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
-          <RandomButton/>
+          <RandomButton />
         </Route>
         <Route path="/about">
           <About/>
