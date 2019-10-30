@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+
+.DisplayMovies{
+  margin-right: auto;
+  margin-left: auto;
+  background-color:rgba(0, 0, 0, 0.7);
+  width: 40%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.movieTitle{
+  font-size: 40px;
+  font-family: Lacquer;
+}
+
+.movieTxt{
+  font-size: 30px;
+  font-family: arial;
+}
+
+.movieImg:hover{
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+.movieImg{
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
