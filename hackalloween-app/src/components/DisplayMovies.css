@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+.DisplayMovies{
+  margin-right: auto;
+  margin-left: auto;
+  background-color:rgba(253, 253, 253, 0.3);
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.movieTitle{
+  font-size: 40px;
+  font-family: Lacquer;
+}
+
+.movieTxt{
+  font-size: 20px;
+  font-family: Muli;
+
+}
+
+.movieImg:hover{
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+
+.movieImg{
+  width: 300px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+
+@media screen and (min-width: 751px) {
+  .movieTxt{
+    font-size: 30px;
+    font-family: Muli;
+  
+  }
+
+  .movieTitle{
+    font-size: 50px;
+  }
+
+  .DisplayMovies{
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+  }
+}

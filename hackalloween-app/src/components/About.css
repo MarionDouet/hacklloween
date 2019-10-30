@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+body{
+  background-image: url(../images/horror-forest-background-for-photoshop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  height: 100%;
+}
+.about-section{
+  margin: 2em 15% 5em 15%
+}
+.description-reverse{
+  display: flex;
+  font-size: 20px;
+  flex-direction: column-reverse;
+  align-items: center;
+  font-family: 'Muli', sans-serif;
+}
+.description{
+  display: flex;
+  font-size: 20px;
+  flex-direction: column-reverse;
+  align-items: center;
+  font-family: 'Muli', sans-serif;
+}
+
+
+
+.img-about{
+  width: 9em;
+  height: 15em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+
+}
+
+@media screen and (min-width:800px){
+  .img-about{
+    width: 10em;
+    height: auto;
+
+  }
+}
+
+@media screen and (min-width:1000px){
+  
+}
