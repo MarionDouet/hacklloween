@@ -22,20 +22,21 @@
 
 .home-text {
   position: fixed;
-  padding: 30px;
-  margin-top:40px;
-  line-height: 30px;
+  padding: 18px;
+  margin-top:45%;
+  line-height: 20px;
 }
 .important-text {
   color: #FE810E;
   font-family: Lacquer;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: bold;
 }
 .second-text {
   color: white;
   font-family: Lacquer;
   font-size: 20px;
-  padding: 30px;
+
 }
 
 @media screen and (min-width: 751px) {
@@ -45,10 +46,10 @@
 }  
 .home-text {
   position: fixed;
-  padding: 30px;
-  margin-top:300px;
+  padding: 5px;
+  margin-top:400px;
   margin-left: 50%; 
-  line-height: 40px;
+  line-height: 1px; 
 }
 .important-text {
   font-size: 65px;
