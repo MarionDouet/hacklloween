@@ -1,0 +1,44 @@
+
+  .videoforest {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    
+   }
+   .forest {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    
+   }
+   .top-movies{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 0.5em;
+    text-decoration: none;
+    color: #FE810E;
+    font-size:14px;
+    font-family: roboto;
+    font-weight: bold;
+  }
+  .saw-img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 220px;
+  }
+   
+   @media screen and (min-width: 751px) {
+    .forest{
+      width: auto;
+      height: 120%;
+    } 
+} 
