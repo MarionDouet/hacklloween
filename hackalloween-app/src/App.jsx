@@ -1,23 +1,22 @@
 import React from 'react';
 import './App.css';
-import RandomButton from './components/RandomButton'
+import {Switch, Route } from 'react-router-dom'
 import Nav from './components/Nav';
+import RandomButton from './components/RandomButton'
 import Home from './components/Home';
 import Footer from './components/Footer';
 import About from './components/About';
-import {Switch, Route } from 'react-router-dom'
+
 
 
 function App() {
   return (
     <div className="App">
       <Nav />
-
-      <Home />
-      <RandomButton/>
       <Switch>
         <Route exact path="/">
           <Home />
+          <RandomButton/>
         </Route>
         <Route path="/about">
           <About/>
