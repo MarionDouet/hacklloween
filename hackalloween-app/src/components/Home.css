@@ -24,7 +24,7 @@
   position: fixed;
   padding: 18px;
   margin-top:45%;
-  line-height: 20px;
+  line-height: 30px;
 }
 .important-text {
   color: #FE810E;
@@ -47,15 +47,14 @@
 .home-text {
   position: fixed;
   padding: 5px;
-  margin-top:400px;
+  margin-top:200px;
   margin-left: 50%; 
-  line-height: 1px; 
 }
 .important-text {
   font-size: 65px;
 }
 .second-text {
-  font-size: 50px;
-  padding: 50px;
+  font-size: 40px;
+  line-height: 50px;
 }
 }
