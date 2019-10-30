@@ -8,8 +8,8 @@ function Nav() {
     <nav className="nav">
       <div className="title-logo">
         <img src={Eye} alt="Website logo" className="img-nav" />
-        <h1 className="title-site">Fear focus</h1>
       </div>
+      <h1 className="title-site">Fear focus</h1>
       <div className="about-contact">
         <p>
           <a href="#.h">About</a>
