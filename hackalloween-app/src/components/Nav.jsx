@@ -1,6 +1,7 @@
 import React from 'react';
 import './Nav.css';
 import Eye from '../images/Eye.png';
+import {Link} from 'react-router-dom';
 
 function Nav() {
   return (
@@ -14,7 +15,7 @@ function Nav() {
           <a href="#.h">About</a>
         </p>
         <p>
-          <a href="#.h">Contact</a>
+          <Link to ="/top">Top</Link>
         </p>
       </div>
     </nav>
