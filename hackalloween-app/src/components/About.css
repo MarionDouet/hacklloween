@@ -26,13 +26,22 @@ body{
   font-family: 'Muli', sans-serif;
 }
 
-
-
 .img-about{
+  border-radius: 100%;
+}
+.description .img-about{
   width: 9em;
   height: 15em;
   margin-top: 2em;
   margin-bottom: 0.5em;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.description:hover .img-about{
+    -webkit-filter: blur(0);
+    filter: blur(0);
 
 }
 
@@ -45,5 +54,10 @@ body{
 }
 
 @media screen and (min-width:1000px){
-  
+  .description{
+    flex-direction:row;
+  }
+  .img-about{
+    margin-left: 6em;
+  }
 }
