@@ -30,8 +30,7 @@ function About () {
           <img src={PhotoEricka} alt="Photo développeuse" className="img-about" />
         </div>
         <div className="description">
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro rerum, nihil aperiam asperiores ut,
-             voluptatum velit ea pariatur dolore quidem adipisci architecto nam dignissimos molestiae. Blanditiis dolorem deserunt eaque.</p>
+           <p>Hello, je m'apelle luciee je suis </p>
           <img src={PhotoLucie} alt="Photo développeuse" className="img-about" />
         </div>
         
