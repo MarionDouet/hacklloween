@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Nav.css';
 import Eye from '../images/Eye.png';
 import {Link} from 'react-router-dom';
+import sound from '../images/bruit.mp3'
+
 
 function Nav() {
+  const audio = new Audio(sound);
+  useEffect(() => audio.play(sound), [audio]);
+
   return (
     <nav className="nav">
       <Link to="/">
