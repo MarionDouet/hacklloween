@@ -39,14 +39,17 @@ class RandomButton extends React.Component {
   render(){
     return(
       <div className = "divButton">
-
+        <div className="home-text">
+         <p className="important-text">Nothing to do tonight?</p>
+         <p className="second-text">Find an horror film in our selections</p>
+       </div> 
+      <div className="blabla">
         {
           this.state.movies ? <DisplayMovies movies={this.state.movies}/> : null
         }
         
-        <button className="buttonRandom" type="button" onClick={this.getMovies}>Next!</button>
-          
-       
+        <button className="buttonRandom" type="button" onClick={this.getMovies}>Next!</button> 
+      </div>
       </div>
 
     )

@@ -9,11 +9,7 @@ function Home() {
 <video className='videoTag' autoPlay loop muted>
     <source src={Moon} type='video/mp4' />
     <source src={Moon} type='video/ogg' />
-</video>
-<div className="home-text">
-    <p className="important-text">Nothing to do tonight?</p>
-    <p className="second-text">Find an horror film in our selections</p>
-</div>    
+</video>  
     </div>
   );
 }
