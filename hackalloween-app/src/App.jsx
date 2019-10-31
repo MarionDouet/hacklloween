@@ -6,7 +6,6 @@ import RandomButton from './components/RandomButton'
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Top from './components/Top'
-
 import About from './components/About';
 
 
