@@ -13,6 +13,7 @@ function Nav() {
   return (
     <nav className="nav">
       <NavLink to="/" className="alink" >
+
         <div className="title-logo">
           <img src={Eye} alt="Website logo" className="img-nav" />
         </div>

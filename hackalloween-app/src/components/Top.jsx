@@ -28,9 +28,9 @@ function Top() {
                             <p>
                                 <h3>Top gore</h3>
                             </p>
-                        <img src={ImgSaw} alt="images saw" className="img-top" />
-                        <img src={ImgCanibalHolocaust} alt="images cannibal holocaust" className="img-top" />
-                        <img src={ImgFinalDestination} alt="images final destination" className="img-top" />
+                                    <img src={ImgSaw} alt="images saw" className="img-top" />
+                                    <img src={ImgCanibalHolocaust} alt="images cannibal holocaust" className="img-top" />
+                                    <img src={ImgFinalDestination} alt="images final destination" className="img-top" />
                     </div>   
                     <div className="top-nanar">
 
@@ -45,6 +45,7 @@ function Top() {
                                 <p>
                                     <h3>Top omg</h3>
                                 </p>
+
                             <img src={ImgBlairWitch} alt="images blair witch" className="img-top" />
                             <img src={ImgInsidious} alt="images insidious " className="img-top" />
                             <img src={ImgPsychose} alt="images psychose " className="img-top" />

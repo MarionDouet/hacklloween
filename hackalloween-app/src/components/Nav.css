@@ -25,7 +25,7 @@
 }
 
 .about-contact,
-a {
+.navlink{
   display: flex;
   flex-direction: row;
   justify-content: center;
