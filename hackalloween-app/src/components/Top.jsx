@@ -26,7 +26,7 @@ function Top() {
                 <div className="top-movies">
                     <div className="top-gore">
                             <p>
-                                <a to ="/top-gore">Top gore</a>
+                                <h3>Top gore</h3>
                             </p>
                                     <img src={ImgSaw} alt="images saw" className="img-top" />
                                     <img src={ImgCanibalHolocaust} alt="images cannibal holocaust" className="img-top" />
@@ -35,7 +35,7 @@ function Top() {
                     <div className="top-nanar">
 
                                 <p>
-                                    <a to ="/top-nanar">Top nanar</a>
+                                    <h3>Top nanar</h3>
                                 </p>
                             <img src={ImgParanormalActivity} alt="images paranormal activity" className="img-top" />
                             <img src={ImgTheExorcist} alt="images the exorcist " className="img-top" />
@@ -43,7 +43,7 @@ function Top() {
                     </div>
                     <div className="top-omg">
                                 <p>
-                                    <a to ="/top-omg">Top omg</a>
+                                    <h3>Top omg</h3>
                                 </p>
 
                             <img src={ImgBlairWitch} alt="images blair witch" className="img-top" />
@@ -52,6 +52,7 @@ function Top() {
                     </div>
                 </div>
              </div>
+             
         </Link>
     
     

@@ -17,13 +17,18 @@
   font-family:Creepster;
   color: #FE810E;
   font-size:30px;
+  margin-left: 0.8em;
+
+}
+.img-nav {
+  padding-top: 27px;
 }
 
 .about-contact,
 .navlink{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   margin-right: 0.5em;
   text-decoration: none;
   color: #FE810E;
@@ -41,6 +46,7 @@
   }
   .title-site{
     font-size: 45px;
+    margin-left: 0.1em;
   }
 
   .title-logo {
@@ -50,7 +56,7 @@
   .img-nav {
     width: 60px;
     margin-left: 1em;
-    margin-top: 2em;
+    margin-top: 10px;
     margin-right: 2em;
   }
 

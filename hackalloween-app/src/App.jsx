@@ -20,7 +20,6 @@ function App() {
         </Route>
         <Route path="/top">
           <Top />
-
         </Route>
         <Route path="/about">
           <About/>
